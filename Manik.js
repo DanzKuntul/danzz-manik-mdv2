@@ -2268,7 +2268,7 @@ case prefix+'deposit':
 let depisi = `*─ 「 CARA DEPOSIT 」 ─*
      
 _Berikut Adalah Cara Deposit User!._
-_For Your Information, ManikBot Hanya Mendukung Deposit Melalui Ovo, Shopeepay, Dana, Qris Saja._
+_For Your Information, DanzBot Hanya Mendukung Deposit Melalui pulsa, Shopeepay, Dana, Gopay Saja._
 
 _》Pulsa : 088270863279_
 _》Shopeepay : 088270863279_
