@@ -2040,14 +2040,14 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
  ●Danzz
 
  © DESIGN: DANZBOT`
- Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'ManikBot By Own-Manik√', mentions: [m.sender] })
+ Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'DanzBot-MD By Danzz', mentions: [m.sender] })
 break 
 }
 //━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Danzz! ]━━━━━━━━━━━━━━━\\
 case prefix+'shopeepay':{
 if (isGroup) return reply('Fitur Ini Hanya Bisa Digunakan Di Private Chat!')
 let noshp = text
-if (isNaN(parseInt(noshp))) return reply(`${command} 6285737134572`)
+if (isNaN(parseInt(noshp))) return reply(`${command} 6288270863279`)
 const sections = [
     {
 	title: `Convert ShopeePay`,
