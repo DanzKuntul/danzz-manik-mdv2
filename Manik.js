@@ -1500,7 +1500,7 @@ const readmore = more.repeat(4001)
 addCountCmd(`#${command.slice(1)}`, sender, _cmd) 
                 anu = `── 「 DanzBot-MD 」 ──*
                 
-    ${Gurītingutaimu} _*${pushname !== undefined ? pushname : 'Kak'}*_
+    ${ucapanWaktu} _*${pushname !== undefined ? pushname : 'Kak'}*_
   
   Library : *Baileys-MD*.
   Prefix : ( ${prefix} )
