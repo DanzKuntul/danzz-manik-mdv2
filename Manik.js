@@ -2029,7 +2029,10 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
  ●Danzz
 
  © DESIGN: DANZBOT`
- Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'Contacts Owner                 📮 Whatsapp : 6288270863279     💌 Email : danzkontol@gmail.com     Shoyū-sha o Supamu shinaide kudasai', mentions: [m.sender] })
+ Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'Contacts Owner
+📮 Whatsapp : 6288270863279
+💌 Email : danzkontol@gmail.com
+Shoyū-sha o Supamu shinaide kudasai', mentions: [m.sender] })
 break 
 }
 //━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Danzz! ]━━━━━━━━━━━━━━━\\
