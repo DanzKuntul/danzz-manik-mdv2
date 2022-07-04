@@ -1498,21 +1498,10 @@ case prefix+'menu': case prefix+'help':{
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 addCountCmd(`#${command.slice(1)}`, sender, _cmd) 
-                anu = `── 「 DanzBot-MD 」 ──*
-                
-    ${ucapanWaktu} _*${pushname !== undefined ? pushname : 'Kak'}*_
+                anu = `${ucapanWaktu} _*${pushname !== undefined ? pushname : 'Kak'}*_
+   📬 You need help? The following is a list of the command needed :
   
-  Library : *Baileys-MD*.
-  Prefix : ( ${prefix} )
-  Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
-  Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
-  
-  Status Anda : ${isManik ? 'Owner' : isPremium ? 'Premium' : 'Free'}
-  Limit Harian : ${isManik ? '∞' : isPremium ? '∞' : global.db.users[m.sender].limit}
-  Limit Game : ${cekGLimit(sender, gcount, glimit)}
-  Total Pengguna : ${pendaftar.length}
-  ${readmore}
-   *｢  TOPUP MENU OTOMATIS  ｣*
+  *｢  TOPUP MENU OTOMATIS  ｣*
   ღ ${prefix}topup
   ღ ${prefix}topupff
   ღ ${prefix}topupml
@@ -2040,7 +2029,7 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
  ●Danzz
 
  © DESIGN: DANZBOT`
- Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'Contacts Owner /n📮 Whatsapp : 6288270863279/n💌 Email : danzkontol@gmail.com/nShoyū-sha o Supamu shinaide kudasai', mentions: [m.sender] })
+ Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'Contacts Owner     📮 Whatsapp : 6288270863279     💌 Email : danzkontol@gmail.com     Shoyū-sha o Supamu shinaide kudasai', mentions: [m.sender] })
 break 
 }
 //━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Danzz! ]━━━━━━━━━━━━━━━\\
