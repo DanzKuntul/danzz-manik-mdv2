@@ -1499,7 +1499,7 @@ const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 addCountCmd(`#${command.slice(1)}`, sender, _cmd) 
                 anu = `${ucapanWaktu} _*${pushname !== undefined ? pushname : 'Kak'}*_
-  📬 You need help? The following is a list of the command needed :
+ 📬 You need help? The following is a list of the command needed :
   
   *｢  TOPUP MENU OTOMATIS  ｣*
   ღ ${prefix}topup
