@@ -918,7 +918,7 @@ const buttonsDefault = [
 			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
 			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
 			{ quickReplyButton: { displayText: `Dashboard 📊`, id: `${prefix}dashboard` } },
-			{ quickReplyButton: { displayText: `Owner DanzBot 🧑`, id: `${prefix}donate` } },
+			{ quickReplyButton: { displayText: `Owner DanzBot 🧑`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `Donasi DanzBot 💰`, id: `${prefix}donasi` } }
 		]
 const buttonsFirst = [
@@ -1499,7 +1499,7 @@ const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 addCountCmd(`#${command.slice(1)}`, sender, _cmd) 
                 anu = `${ucapanWaktu} _*${pushname !== undefined ? pushname : 'Kak'}*_
-   📬 You need help? The following is a list of the command needed :
+  📬 You need help? The following is a list of the command needed :
   
   *｢  TOPUP MENU OTOMATIS  ｣*
   ღ ${prefix}topup
@@ -2029,10 +2029,7 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
  ●Danzz
 
  © DESIGN: DANZBOT`
- Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'Contacts Owner
-📮 Whatsapp : 6288270863279
-💌 Email : danzkontol@gmail.com
-Shoyū-sha o Supamu shinaide kudasai', mentions: [m.sender] })
+ Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'Chat Owner Jika Ingin Tau Lebih Banyak! 📮 Whatsapp : 6288270863279', mentions: [m.sender] })
 break 
 }
 //━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Danzz! ]━━━━━━━━━━━━━━━\\
@@ -4390,12 +4387,12 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             break
 	    case prefix+'donasi': case prefix+'donate': case prefix+'sewabot': case prefix+'sewa': case prefix+'buypremium': case prefix+'donate':{
              addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-                reply(` MENU DONATE \n\nHi ${pushname} \n\`\`\`OVO : 085737134572\`\`\`\n\`\`\`PULSA : 085737134572 (Indosat)\`\`\`\nTerimakasih untuk kamu yang sudah donasi untuk perkembangan bot ini _^\n THX FOR YOU ! `)
+                reply(` MENU DONATE \n\nHi ${pushname} \n\`\`\`DANA : 088270863279\`\`\`\n\`\`\`PULSA : 089519269447 (Tri)\`\`\`\nTerimakasih untuk kamu yang sudah donasi untuk perkembangan bot ini _^\n THX FOR YOU ! `)
             }
             break
             case prefix+'sc': case prefix+'script':{
              addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-                reply('*Minta Ke Owner Aja Klo Dikasi Kau Beruntung*')
+                reply('*Script Di Private, Jika Ingin Tau Lebih Lanjut Chat Owner* wa.me/6288270863279')
             }
             break
             case prefix+'chat':{
