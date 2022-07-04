@@ -915,25 +915,25 @@ function clockString(ms) {
   return [h, ' H ', m, ' M ', s, ' S '].map(v => v.toString().padStart(2, 0)).join('')
 }
 const buttonsDefault = [
-			{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6288270863279` } },
-			{ urlButton: { displayText: `Group Owner`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
-			{ quickReplyButton: { displayText: `🧑Owner`, id: `${prefix}owner` } },
-			{ quickReplyButton: { displayText: `💰Donasi`, id: `${prefix}donate` } },
-			{ quickReplyButton: { displayText: `Dashboard`, id: `${prefix}dashboard` } }
+			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
+			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
+			{ quickReplyButton: { displayText: `Dashboard 📊`, id: `${prefix}dashboard` } },
+			{ quickReplyButton: { displayText: `Owner DanzBot 🧑`, id: `${prefix}donate` } },
+			{ quickReplyButton: { displayText: `Donasi DanzBot 💰`, id: `${prefix}donasi` } }
 		]
 const buttonsFirst = [
-			{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6288270863279` } },
-			{ urlButton: { displayText: `Group Owner`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
-			{ quickReplyButton: { displayText: `🧑Owner`, id: `${prefix}owner` } },
-			{ quickReplyButton: { displayText: `📝Menu`, id: `${prefix}menu` } },
-			{ quickReplyButton: { displayText: `📜Rules`, id: `${prefix}rules` } }
+			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
+			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
+			{ quickReplyButton: { displayText: `Owner DanzBot 🧑`, id: `${prefix}owner` } },
+			{ quickReplyButton: { displayText: `Menu DanzBot 📝`, id: `${prefix}menu` } },
+			{ quickReplyButton: { displayText: `Rules DanzBot 📜`, id: `${prefix}rules` } }
 		]
 const buttonsAnon = [
-			{ callButton: { displayText: `Call Owner!`, phoneNumber: `+6288270863279` } },
-			{ urlButton: { displayText: `Group Owner`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
+			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
+			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
 			{ quickReplyButton: { displayText: `📱 Search`, id: `${prefix}search` } },
 			{ quickReplyButton: { displayText: `📲 Skip`, id: `${prefix}skip` } }
-		]
+	        ]
 
 		const listmsg = (from, title, desc, list) => { // ngeread nya pake rowsId, jadi command nya ga keliatan
 let po = prepareMessageFromContent(from, {"listMessage": {"title": title,"description": desc,"buttonText": "CLICK HERE","listType": "SINGLE_SELECT","sections": list}}, {})
@@ -2291,7 +2291,7 @@ let buttons = [
 { buttonId: prefix+`depoyes ${depo}|${m.sender}`, buttonText: { displayText: 'Acc' }, type: 1 },
 { buttonId: prefix+`depono`, buttonText: { displayText: 'salah' }, type: 1 }
 ]
-Manik.sendButtonText(`6285737134572@s.whatsapp.net`, buttons, `${bukti}`, Manik.user.name, m)
+Manik.sendButtonText(`6288270863279@s.whatsapp.net`, buttons, `${bukti}`, Danzz.user.name, m)
 }
 break
 case prefix+'depoyes':
@@ -3036,7 +3036,7 @@ global.hargadmff = 990000
 let workid = `*── 「 TOPUP SUKSES 」 ──*\n\n_》Harga : Rp${global.hargadmff}_\n_》NickName : ${response.data.data.sn}_\n_》Nama Item : ${produkid} Diamond ( FreeFire )_\n_》Trx Id : ${response.data.data.trx_id}_\n\n_Item Akan Segera Masuk Secara Otomatis Silahkan Melakukan Pengecekan Secara Berkala Pada Game Anda.\n\nNote: Jika Ada Kesalahan Id Atau NickName Bukan Tanggung Jawab Owner!.`
 let workd = `*── 「 TOPUP GAGAL 」 ──*
 
-Transaksi Anda Gagal, Saldo Sistem Belum terisi Saldo User Anda Tidak Akan Dipotong, Harap Tumggu Saldo Sistem Reset Setiap 6 Jam Sekali!.`
+Transaksi Anda Gagal, Saldo Sistem Belum terisi Saldo User Anda Tidak Akan Dipotong, Harap Tunggu Saldo Sistem Reset Setiap 6 Jam Sekali!.`
 if(response.data.data.status == "Sukses"){
 if (idharga == "FF5"){
 moneyAdd(m.sender, 900)
@@ -4451,7 +4451,7 @@ gameAdd(sender, glimit)
             let buttons = [
                         { buttonId: prefix+'❤️', buttonText: { displayText: '❤️' }, type: 1 }
                     ]
-                    await Manik.sendButtonText(m.chat, buttons, jawab, Manik.user.name, m, {mentions: ments})
+                    await Danzz.sendButtonText(m.chat, buttons, jawab, Danzz.user.name, m, {mentions: ments})
             }
             break
             case prefix+'couple':{
@@ -4468,7 +4468,7 @@ Ciee Whats Going On💖👀`
             let buttons = [
                         { buttonId: prefix+'❤️congrats', buttonText: { displayText: '❤️congrats' }, type: 1 }
                     ]
-                    await Manik.sendButtonText(m.chat, buttons, jawab, Manik.user.name, m, {mentions: menst})
+                    await Danzz.sendButtonText(m.chat, buttons, jawab, Manik.user.name, m, {mentions: menst})
             }
             break
             case prefix+'join':{
@@ -5075,8 +5075,8 @@ wa.me/6288270863279
                     await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Group Bot',
-                                    url: 'https://chat.whatsapp.com/E14rIyYMuovIfkskhi5QN9'
+                                    displayText: 'Group Official 👥',
+                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -5396,7 +5396,7 @@ wa.me/6288270863279
                     buttons: buttons,
                     headerType: 4
                 }
-                Manik.sendMessage(m.chat, buttonMessage, { quoted: m })
+                Danzz.sendMessage(m.chat, buttonMessage, { quoted: m })
         })
         }
         break
@@ -5582,7 +5582,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image[0] },
                     caption: `≻ Title : ${result.title}\n≻ Category : ${result.type}\n≻ Detail : ${result.source}\n≻ Media Url : ${result.image[2] || result.image[1] || result.image[0]}`,
-                    footer: Manik.user.name,
+                    footer: Danzz.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -5603,7 +5603,7 @@ break
                 let buttonMessage = {
                     image: { url: result.image },
                     caption: `≻ Title : ${result.title}\n≻ Source : ${result.source}\n≻ Media Url : ${result.image}`,
-                    footer: Manik.user.name,
+                    footer: Danzz.user.name,
                     buttons: buttons,
                     headerType: 4
                 }
@@ -5625,7 +5625,7 @@ footerText: 'Hello Owner',
 buttons: buttons,
 headerType: 1
 }
-                Manik.sendMessage(m.chat, buttonMessage, { quoted: m })
+                Danzz.sendMessage(m.chat, buttonMessage, { quoted: m })
             }
             break            
             case prefix+'yatim':{
@@ -5642,7 +5642,7 @@ headerType: 1
             let buttons = [
                         { buttonId: prefix+'yatim', buttonText: { displayText: 'Yatim' }, type: 1 }
                     ]
-                     Manik.sendButtonText(m.chat, buttons, mty, Manik.user.name, m, {mentions: ments})
+                     Danzz.sendButtonText(m.chat, buttons, mty, Manik.user.name, m, {mentions: ments})
 }
 break
 case prefix+'piatu':
@@ -5661,7 +5661,7 @@ if (!isPremium && global.db.users[m.sender].limit < 1) return reply(mess.endLimi
             let buttons = [
                         { buttonId: prefix+'piatu', buttonText: { displayText: 'Piatu' }, type: 1 }
                     ]
-                     Manik.sendButtonText(m.chat, buttons, bruh, Manik.user.name, m, {mentions: ments})
+                     Danzz.sendButtonText(m.chat, buttons, bruh, Manik.user.name, m, {mentions: ments})
 }
 break
             case prefix+'quotesanime': case prefix+'quoteanime':{
@@ -5729,7 +5729,7 @@ break
             let buttons = [
                         { buttonId: prefix+'jodohku', buttonText: { displayText: 'Jodohku' }, type: 1 }
                     ]
-                    await Manik.sendButtonText(m.chat, buttons, jawab, Manik.user.name, m, {mentions: ments})
+                    await Danzz.sendButtonText(m.chat, buttons, jawab, Manik.user.name, m, {mentions: ments})
             }
             break
             case prefix+'jadian':{
@@ -6076,7 +6076,7 @@ hx.ttdownloader(q).then( data => {
 })
 	break
 case prefix+'gcbot': case prefix+'gc': case prefix+'bot':
-reply('*Join To Group Official Bot : https://chat.whatsapp.com/JwVolgwCnAHEqshe6rr6DT*')
+reply('*Join To Group Official Bot : https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK*')
 break
 
 case prefix+'tiktoknowm':
@@ -6466,7 +6466,7 @@ case prefix+'sendprofile': case prefix+'sendcontact':{
                 }
                 let profile = await Manik.profilePictureUrl(room.b)
                 let status = await Manik.fetchStatus(room.b)
-                let msg = await Manik.sendImage(room.a, profile, `Name : ${await Manik.getName(room.b)}\nBio : ${status.status}\nUser : @${room.b.split("@")[0]}`, m, { mentions: [room.b] })
+                let msg = await Manik.sendImage(room.a, profile, `Name : ${await Danzz.getName(room.b)}\nBio : ${status.status}\nUser : @${room.b.split("@")[0]}`, m, { mentions: [room.b] })
                 Manik.sendContact(room.a, [room.b.split("@")[0]], msg)
             }
             break
@@ -6661,9 +6661,9 @@ Manik.sendMessage(m.chat, { contacts: { displayName: 'Danzz', contacts: [{ vcard
              addCountCmd(`#${command.slice(1)}`, sender, _cmd)
                 let vcard = 'BEGIN:VCARD\n'
     + 'VERSION:3.0\n' 
-    + 'N:;Manik;;;'
-    + 'FN:Manik\n'
-    + 'ORG:Arya Manik;\n'
+    + 'N:;Danzz;;;'
+    + 'FN:Danzz\n'
+    + 'ORG:Danzz Ofc;\n'
     + 'item1.TEL;type=CELL;type=VOICE;waid=6288270863279:+62 882-7086-3279\n' 
     + 'item1.X-ABLabel:Creator DanzBot\n'
     + 'item2.EMAIL;type=INTERNET:witmawati4@gmail.com\n'
