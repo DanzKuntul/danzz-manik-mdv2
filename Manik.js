@@ -1498,9 +1498,20 @@ case prefix+'menu': case prefix+'help':{
 const more = String.fromCharCode(8206)
 const readmore = more.repeat(4001)
 addCountCmd(`#${command.slice(1)}`, sender, _cmd) 
-                anu = `${Gurītingutaimu} _*${pushname !== undefined ? pushname : 'Kak'}*_
-                        📬 You need help? The following is a list of the commands needed :
-
+                anu = `── 「 DanzBot-MD 」 ──*
+                
+    ${Gurītingutaimu} _*${pushname !== undefined ? pushname : 'Kak'}*_
+  
+  Library : *Baileys-MD*.
+  Prefix : ( ${prefix} )
+  Tanggal Server : ${moment.tz('Asia/Jakarta').format('DD/MM/YY')}
+  Waktu Server : ${moment.tz('Asia/Jakarta').format('HH:mm:ss')}
+  
+  Status Anda : ${isManik ? 'Owner' : isPremium ? 'Premium' : 'Free'}
+  Limit Harian : ${isManik ? '∞' : isPremium ? '∞' : global.db.users[m.sender].limit}
+  Limit Game : ${cekGLimit(sender, gcount, glimit)}
+  Total Pengguna : ${pendaftar.length}
+  ${readmore}
    *｢  TOPUP MENU OTOMATIS  ｣*
   ღ ${prefix}topup
   ღ ${prefix}topupff
