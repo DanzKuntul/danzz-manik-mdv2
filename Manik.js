@@ -5101,8 +5101,8 @@ wa.me/6288270863279
 		    await sleep(1500)
                     let btn = [{
                                 urlButton: {
-                                    displayText: 'Group Bot',
-                                    url: 'https://chat.whatsapp.com/E14rIyYMuovIfkskhi5QN9'
+                                    displayText: 'Group Official 👥',
+                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -6180,7 +6180,7 @@ break
 ≻ Url : ${anu.media[0]}
 Untuk Download Media Silahkan Klik salah satu Button dibawah ini atau masukkan command ytmp3/ytmp4 dengan url diatas
 `,
-			footer: Manik.user.name,
+			footer: Danzz.user.name,
 			buttons,
 			headerType: 4
 		    }
@@ -6693,16 +6693,16 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedContentText: anu,
                             locationMessage: {
                             jpegThumbnail: fs.readFileSync('./media/Manik.jpg')},
-                            hydratedFooterText: `ManikBot - Md Beta`,
+                            hydratedFooterText: `DanzBot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Instagram',
-                                    url: 'https://instagram.com/aryamanik___'
+                                    displayText: 'Github Danzz 🏷',
+                                    url: 'https://github.com/DanzGantevk75'
                                 }
                             }, {
                             	urlButton: {
-                                displayText: 'Group',
-                                    url: 'https://chat.whatsapp.com/Gz9bSMZnFFr9avr61IVOKa'
+                                displayText: 'Group Official 👥',
+                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -6971,7 +6971,7 @@ case prefix+'quotesimage':
 if (!isPremium && global.db.users[m.sender].limit < 1) return reply(mess.endLimit) // respon ketika limit habis
             db.users[m.sender].limit -= 1 // -1 limit
     buff = await getBuffer(`https://api.lolhuman.xyz/api/random/${command.slice(1)}?apikey=${lolkey}`)
-    Manik.sendImage(m.chat, buff, `ManikBot - By ©AryaManik`, m)
+    Manik.sendImage(m.chat, buff, `DanzBot-MD - By ©Danzz`, m)
  break
 case prefix+'faktaunik':
 case prefix+'katabijak':
@@ -7415,8 +7415,8 @@ const sendMsg = await Manik.sendMessage(m.chat, listMessage)
             let numb = m.sender
             let proses = `「 *TRANSAKSI PENDING* 」\n\n\`\`\`📆 TANGGAL : ${tanggal}\n⌚ JAM     : ${jam}\n✨ STATUS  : Pending\`\`\`\n\n📝 Catatan :\n${text}\n\nPesanan @${numb.split("@")[0]} sedang di proses!`
             mentions(proses, numb, true)
-            m.quoted.copyNForward(`6285737134572@s.whatsapp.net`, true)
-            Manik.sendMessage(`6285737134572@s.whatsapp.net`, {text: proses })
+            m.quoted.copyNForward(`6288270863279@s.whatsapp.net`, true)
+            Manik.sendMessage(`6288270863279@s.whatsapp.net`, {text: proses })
             break
         case 'done':
             if (!isManik) return
