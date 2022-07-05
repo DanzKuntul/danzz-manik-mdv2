@@ -2029,7 +2029,7 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
  ●Danzz
 
  © DESIGN: DANZBOT`
- Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'Chat Owner Jika Ingin Tau Lebih Banyak! 📮 Whatsapp : 6288270863279', mentions: [m.sender] })
+ Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'Contacts Owner/n/n📮 Whatsapp : 6288270863279/n💌 Email : danzkontol@gmail.com/nShoyū-sha o Supamu shinaide kudasai', mentions: [m.sender] })
 break 
 }
 //━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Danzz! ]━━━━━━━━━━━━━━━\\
