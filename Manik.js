@@ -915,21 +915,21 @@ function clockString(ms) {
   return [h, ' H ', m, ' M ', s, ' S '].map(v => v.toString().padStart(2, 0)).join('')
 }
 const buttonsDefault = [
-			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
+			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff` } },
 			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
 			{ quickReplyButton: { displayText: `Dashboard 📊`, id: `${prefix}dashboard` } },
 			{ quickReplyButton: { displayText: `Owner DanzBot 🧑`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `Donasi DanzBot 💰`, id: `${prefix}donasi` } }
 		]
 const buttonsFirst = [
-			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
+			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff` } },
 			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
 			{ quickReplyButton: { displayText: `Owner DanzBot 🧑`, id: `${prefix}owner` } },
 			{ quickReplyButton: { displayText: `Menu DanzBot 📝`, id: `${prefix}menu` } },
 			{ quickReplyButton: { displayText: `Rules DanzBot 📜`, id: `${prefix}rules` } }
 		]
 const buttonsAnon = [
-			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK` } },
+			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff` } },
 			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
 			{ quickReplyButton: { displayText: `📱 Search`, id: `${prefix}search` } },
 			{ quickReplyButton: { displayText: `📲 Skip`, id: `${prefix}skip` } }
@@ -5076,7 +5076,7 @@ wa.me/6288270863279
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Group Official 👥',
-                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
+                                    url: 'https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -5102,7 +5102,7 @@ wa.me/6288270863279
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Group Official 👥',
-                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
+                                    url: 'https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -6076,7 +6076,7 @@ hx.ttdownloader(q).then( data => {
 })
 	break
 case prefix+'gcbot': case prefix+'gc': case prefix+'bot':
-reply('*Join To Group Official Bot : https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK*')
+reply('*Join To Group Official Bot : https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff*')
 break
 
 case prefix+'tiktoknowm':
@@ -6702,7 +6702,7 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             }, {
                             	urlButton: {
                                 displayText: 'Group Official 👥',
-                                    url: 'https://chat.whatsapp.com/EmCBNEjwdOcHzRlGCXKoxK'
+                                    url: 'https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff'
                                 }
                             }, {
                                 quickReplyButton: {
