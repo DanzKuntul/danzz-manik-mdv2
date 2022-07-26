@@ -2022,14 +2022,14 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
  ღ ${prefix}freefire text
  
  Thx To
- ●All creator bot
- ●Allah SWT😇
- ●Ortuku
- ●Danzz Team
- ●Danzz
+ ღAll creator bot
+ ღAllah SWT😇
+ ღOrtuku
+ ღDanzz Team
+ ღDanzz
 
  © DESIGN: DANZBOT`
- Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: 'Chat Owner Jika Ingin Tau Lebih Banyak! 📮 Whatsapp : 6288270863279', mentions: [m.sender] })
+ Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: '𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬 𝐎𝐰𝐧𝐞𝐫\n\n📮 Whatsapp : 088270863279\n💌 Email : danzkontol@gmail.com\nDōmo arigatōgozaimasu', mentions: [m.sender] })
 break 
 }
 //━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Danzz! ]━━━━━━━━━━━━━━━\\
