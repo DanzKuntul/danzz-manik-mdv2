@@ -48,12 +48,12 @@ chats: {},
 
 global.called = false
 global.Prefix = 'Multi'
-global.ownerNumber = '6288270863279'
-global.botName = 'DanzBot-MD' 
-global.owner = ['6288270863279'] 
-global.ownerName = 'Danzz'
-global.packName = 'DanzBot-MD' 
-global.author = 'Danzz' 
+global.ownerNumber = '62895622816517'
+global.botName = 'BOTSattZzz' 
+global.owner = ['62895622816517'] 
+global.ownerName = 'Satriyo (SATT!!!)'
+global.packName = 'BOTSattZzz' 
+global.author = 'Satriyo (SATT!!!)' 
 global.sessionName = 'ManikQr'
 global.limitawal = { premium: "∞", free: 100 }
 global.thumb = fs.readFileSync('./media/Manik.jpg')
@@ -915,22 +915,22 @@ function clockString(ms) {
   return [h, ' H ', m, ' M ', s, ' S '].map(v => v.toString().padStart(2, 0)).join('')
 }
 const buttonsDefault = [
-			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff` } },
-			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
+			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EdST379tHkIFWJIes0mJ4X` } },
+			{ urlButton: { displayText: `Sewa BOTSattZzz ღ`, url : `https://msha.ke/danzzbot` } },
 			{ quickReplyButton: { displayText: `Dashboard 📊`, id: `${prefix}dashboard` } },
-			{ quickReplyButton: { displayText: `Owner DanzBot 🧑`, id: `${prefix}owner` } },
-			{ quickReplyButton: { displayText: `Donasi DanzBot 💰`, id: `${prefix}donasi` } }
+			{ quickReplyButton: { displayText: `Owner BOTSattZzz 🧑`, id: `${prefix}owner` } },
+			{ quickReplyButton: { displayText: `Donasi BOTSattZzz 💰`, id: `${prefix}donasi` } }
 		]
 const buttonsFirst = [
-			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff` } },
-			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
-			{ quickReplyButton: { displayText: `Owner DanzBot 🧑`, id: `${prefix}owner` } },
-			{ quickReplyButton: { displayText: `Menu DanzBot 📝`, id: `${prefix}menu` } },
-			{ quickReplyButton: { displayText: `Rules DanzBot 📜`, id: `${prefix}rules` } }
+			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EdST379tHkIFWJIes0mJ4X` } },
+			{ urlButton: { displayText: `Sewa BOTSattZzz ღ`, url : `https://msha.ke/danzzbot` } },
+			{ quickReplyButton: { displayText: `Owner BOTSattZzz 🧑`, id: `${prefix}owner` } },
+			{ quickReplyButton: { displayText: `Menu BOTSattZzz 📝`, id: `${prefix}menu` } },
+			{ quickReplyButton: { displayText: `Rules BOTSattZzz 📜`, id: `${prefix}rules` } }
 		]
 const buttonsAnon = [
-			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff` } },
-			{ urlButton: { displayText: `Sewa DanzBot ღ`, url : `https://msha.ke/danzzbot` } },
+			{ urlButton: { displayText: `Group Official 👥`, url : `https://chat.whatsapp.com/EdST379tHkIFWJIes0mJ4X` } },
+			{ urlButton: { displayText: `Sewa BOTSattZzz ღ`, url : `https://msha.ke/danzzbot` } },
 			{ quickReplyButton: { displayText: `📱 Search`, id: `${prefix}search` } },
 			{ quickReplyButton: { displayText: `📲 Skip`, id: `${prefix}skip` } }
 	        ]
@@ -2028,15 +2028,15 @@ addCountCmd(`#${command.slice(1)}`, sender, _cmd)
  ღDanzz Team
  ღDanzz
 
- © DESIGN: DANZBOT`
- Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: '𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬 𝐎𝐰𝐧𝐞𝐫\n\n📮 Whatsapp : 088270863279\n💌 Email : danzkontol@gmail.com\nDōmo arigatōgozaimasu', mentions: [m.sender] })
+ © DESIGN: BOTSattZzz`
+ Manik.sendMessage(m.chat, { caption: anu, image: { url: "./media/menu.jpg" }, templateButtons: buttonsDefault, footer: '𝐂𝐨𝐧𝐭𝐚𝐜𝐭𝐬 𝐎𝐰𝐧𝐞𝐫\n\n📮 Whatsapp : 0895622816517\n💌 Email : danzkontol@gmail.com\nDōmo arigatōgozaimasu', mentions: [m.sender] })
 break 
 }
 //━━━━━━━━━━━━━━━[ Fitur topup Otomatis server 1 Case Dan Fitur By Danzz! ]━━━━━━━━━━━━━━━\\
 case prefix+'shopeepay':{
 if (isGroup) return reply('Fitur Ini Hanya Bisa Digunakan Di Private Chat!')
 let noshp = text
-if (isNaN(parseInt(noshp))) return reply(`${command} 6288270863279`)
+if (isNaN(parseInt(noshp))) return reply(`${command} 62895622816517`)
 const sections = [
     {
 	title: `Convert ShopeePay`,
@@ -2257,17 +2257,17 @@ case prefix+'deposit':
 let depisi = `*─ 「 CARA DEPOSIT 」 ─*
      
 _Berikut Adalah Cara Deposit User!._
-_For Your Information, DanzBot Hanya Mendukung Deposit Melalui pulsa, Shopeepay, Dana, Gopay Saja._
+_For Your Information, BOTSattZzz Hanya Mendukung Deposit Melalui pulsa, Shopeepay, Dana, Gopay Saja._
 
-_》Pulsa : 088270863279_
-_》Shopeepay : 088270863279_
-_》Dana : 088270863279_
-_》Gopay : 088270863279_
+_》Pulsa : 0895622816517_
+_》Shopeepay :ga ada_
+_》Dana : 085762224918_
+_》Gopay : 085762224918_
 
 _Jika Sudah Melakukan Transfer Harap Kirim Bukti Dengan Cara Mengirim Screenshot Dengan Caption, Contoh:_
 ${prefix}bukti JUMLAH|CATATAN
 _Contoh:_
-${prefix}bukti 10000|isi Saldo 6288270863279
+${prefix}bukti 10000|isi Saldo 62895622816517
 Saldo Akan Masuk Ketika Owner Mengklik Tombol Acc Yang Dikirim Bot!.`
 reply(depisi)
 break
@@ -4387,12 +4387,12 @@ Please @${m.mentionedJid[0].split`@`[0]} to type accept/reject`
             break
 	    case prefix+'donasi': case prefix+'donate': case prefix+'sewabot': case prefix+'sewa': case prefix+'buypremium': case prefix+'donate':{
              addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-                reply(` MENU DONATE \n\nHi ${pushname} \n\`\`\`DANA : 088270863279\`\`\`\n\`\`\`PULSA : 089519269447 (Tri)\`\`\`\nTerimakasih untuk kamu yang sudah donasi untuk perkembangan bot ini _^\n THX FOR YOU ! `)
+                reply(` MENU DONATE \n\nHi ${pushname} \n\`\`\`DANA : 0895622816517\`\`\`\n\`\`\`PULSA : 0895622816517 (Tri)\`\`\`\nTerimakasih untuk kamu yang sudah donasi untuk perkembangan bot ini _^\n THX FOR YOU ! `)
             }
             break
             case prefix+'sc': case prefix+'script':{
              addCountCmd(`#${command.slice(1)}`, sender, _cmd)
-                reply('*Script Di Private, Jika Ingin Tau Lebih Lanjut Chat Owner* wa.me/6288270863279')
+                reply('*Script Di Private, Jika Ingin Tau Lebih Lanjut Chat Pembuat Sc* wa.me/6288270863279')
             }
             break
             case prefix+'chat':{
@@ -5031,7 +5031,7 @@ Bot gw jalan awokawoak
 Jika sudah dipahami rules-nya, silakan ketik *#menu* untuk memulai!
 
 Owner  BOTZ:
-wa.me/6288270863279
+wa.me/62895622816517
 `
              reply(rulesBot)
              break
@@ -5076,7 +5076,7 @@ wa.me/6288270863279
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Group Official 👥',
-                                    url: 'https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff'
+                                    url: 'https://chat.whatsapp.com/EdST379tHkIFWJIes0mJ4X'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -5102,7 +5102,7 @@ wa.me/6288270863279
                     let btn = [{
                                 urlButton: {
                                     displayText: 'Group Official 👥',
-                                    url: 'https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff'
+                                    url: 'https://chat.whatsapp.com/EdST379tHkIFWJIes0mJ4X'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -6696,13 +6696,13 @@ const template = generateWAMessageFromContent(m.chat, proto.Message.fromObject({
                             hydratedFooterText: `DanzBot-MD`,
                             hydratedButtons: [{
                                 urlButton: {
-                                    displayText: 'Github Danzz 🏷',
+                                    displayText: 'Github BOTSattZzz 🏷',
                                     url: 'https://github.com/DanzGantevk75'
                                 }
                             }, {
                             	urlButton: {
                                 displayText: 'Group Official 👥',
-                                    url: 'https://chat.whatsapp.com/GFJaGMLB9s66DhAZTxtFff'
+                                    url: 'https://chat.whatsapp.com/EdST379tHkIFWJIes0mJ4X'
                                 }
                             }, {
                                 quickReplyButton: {
@@ -6732,7 +6732,7 @@ console.log(err)
 }
 break
 
-//================================>ADD FITUR BY MANIK<================================//
+//================================>ADD FITUR BY BOTSATZZZ<================================//
 case prefix+'loli':
        case prefix+'husbu':
        case prefix+'milf':
@@ -7537,7 +7537,7 @@ const axios = require('axios')
           reply(res.data.success)
           break 
           }
-//================================>ADD FITUR BY MANIK<================================//
+//================================>ADD FITUR BY SATBOTZZZ<================================//
 
 default:
 if (isSami && body != undefined){
